@@ -2126,6 +2126,9 @@ body{
 }
 
 @media screen and (max-width: 576px){
+    *{
+        cursor: default !important;
+    }
     .home__title{
         font-size: 4rem;
     }
@@ -2186,4 +2189,5 @@ body{
     .footer__socials{
         gap: 1rem;
     }
+
 } 
